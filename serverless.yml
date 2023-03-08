@@ -1,0 +1,13 @@
+org: jordimorera
+app: my-severless-test-app
+service: my-severless-test-app
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: python3.8
+
+functions:
+  hello:
+    handler: handler.hello
